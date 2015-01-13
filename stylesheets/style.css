@@ -1,0 +1,81 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: arial;
+  color: white;
+}
+
+body {
+  border: 0;
+  line-heigth: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background: blue;
+  text-align: left;
+  height: 70px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#header h1 {
+  padding: .5em 0 .5em 1em;
+  margin: 0;
+}
+
+#navigation {
+  background: orange;
+}
+
+#navigation ul {
+  padding: .5em 0 .5em 17em;
+  margin: 0;
+}
+
+#navigation ul li {
+  display: inline;
+  padding-right: 1em;
+}
+
+#sidebar {
+  background: blue;
+  width: 20%;
+  float: left;
+  height:75%;
+}
+
+#content {
+  background: #D4E6F4;
+  width: 80%;
+  float:right;
+  color: #000;
+  height: 75%;
+}
+
+#content p {
+  margin: 0 0 0 1em;
+  padding:1em 0 1em .5em;
+}
+
+#footer {
+  width: 100%;
+  margin: 0;
+  background: orange;
+  text-align: center;
+  float: left;
+}
+
+.mainMenus {
+  list-style: none;
+}
+
+.mainMenus a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.pages {
+  list-style: square;
+}
