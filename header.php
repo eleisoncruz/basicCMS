@@ -1,11 +1,12 @@
+<!DOCTYPE HTML>
 <html>
   <head>
     <title>Basic CMS</title>
-    <link rel="stylesheet" href="stylesheets/style.css" />
+    <link rel="stylesheet" href="../stylesheets/style.css" />
   </head>
   <body>
     <div id="header">
-      <h1>Basic CMS Project</h1>
+      <p>This is the header</p>
     </div>
     <div id="navigation">
       <ul>
